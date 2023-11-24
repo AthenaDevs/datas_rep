@@ -13,11 +13,11 @@ const upload = multer({ storage: storage });
 
 // Configurar o cliente GitHub
 const gh = new GitHub({
-  username: 'SEU_USUARIO',
+  username: 'AthenaDevs',
   token: 'SEU_TOKEN_GITHUB',
 });
 
-const repo = gh.getRepo('SEU_USUARIO', 'SEU_REPOSITORIO');
+const repo = gh.getRepo('AthenaDevs', 'datas_rep');
 
 app.use(express.static('public'));
 
