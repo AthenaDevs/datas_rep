@@ -14,7 +14,7 @@ const upload = multer({ storage: storage });
 // Configurar o cliente GitHub
 const gh = new GitHub({
   username: 'AthenaDevs',
-  token: 'SEU_TOKEN_GITHUB',
+  token: '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',
 });
 
 const repo = gh.getRepo('AthenaDevs', 'datas_rep');
